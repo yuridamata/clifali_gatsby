@@ -1,0 +1,81 @@
+.schedule {
+   background-color: var(--bgColorOne);
+   height: 464px;
+   margin-bottom: 120px;
+   display: flex;
+   justify-content: center;
+
+   .call_schedule {
+      width: 400px;
+      align-self: center;
+
+      h1 {
+         font-size: 2.5rem;
+         color: var(--bottomColor);
+         margin-bottom: 30px;
+      }
+      a {
+         text-transform: uppercase;
+         background-color: var(--whiteColor);
+         color: var(--bottomColor);
+         padding: 5px 15px;
+         font-size: 0.9rem;
+         font-weight: 700;
+         border-radius: 15px;
+         margin-right: 40px;
+         transition: all ease 0.4s;
+
+         &:hover {
+            background-color: var(--bottomColor);
+            color: var(--whiteColor);
+         }
+      }
+   }
+   .image_schedule {
+      // width: 1000px;
+      // height: 720px;
+      flex: 1;
+      position: relative;
+
+      &::before {
+         content: '';
+         background-color: var(--circleColor);
+         width: 430px;
+         height: 430px;
+         z-index: 2;
+         position: absolute;
+         border-radius: 50%;
+         top: 15px;
+         right: 150px;
+      }
+
+      .img {
+         background-color: #00000048;
+         z-index: 3;
+      }
+   }
+}
+
+@media (max-width: 960px) {
+   .schedule {
+      height: 400px;
+      .call_schedule {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         width: 100%;
+         text-align: center;
+
+         h1 {
+            z-index: 2;
+         }
+         a {
+            margin-right: 0;
+            z-index: 2;
+         }
+      }
+      .image_schedule {
+         display: none;
+      }
+   }
+}
