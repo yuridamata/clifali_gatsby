@@ -17,7 +17,6 @@ const SectionTime = () => {
 							formats={["auto", "webp", "avif"]}
 							placeholder="tracedSVG"
 							layout="constrained"
-							cropFocus="bottom"
 							className={styles.image}
 						/>
 					</div>
