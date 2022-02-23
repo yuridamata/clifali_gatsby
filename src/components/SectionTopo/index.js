@@ -6,7 +6,6 @@ const SectionTopo = () => {
 	return (
 		<section className={styles.top_banner}>
 			<div className={styles.overlay}></div>
-			<div className="content">
 				<StaticImage
 					src="../../images/bg-topo.jpg"
 					alt="image_bg"
@@ -16,7 +15,6 @@ const SectionTopo = () => {
 					placeholder="tracedSVG"
 					className={styles.background_image}
 				/>
-			</div>
 			<div className="container">
 				<h2 className={styles.call_banner}>
 					&ldquo; Um dia, quando olhares para trás, verás que os dias mais
