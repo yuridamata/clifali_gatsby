@@ -11,7 +11,8 @@ const SectionTime = () => {
 				<div className={styles.time_content}>
 					<div className={styles.image_time}>
 						<StaticImage
-							src="../../images/psicologa.jpg"
+							src="../../images/psicologa2.jpg"
+							// src="../../images/psicologa.jpg"
 							alt="image_principal_time"
 							quality={95}
 							formats={["auto", "webp", "avif"]}
