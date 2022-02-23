@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import * as styles from "./styles.module.scss"
@@ -28,12 +28,12 @@ const SectionWorks = () => {
 						</div>
 					</div>
 
-					<div className={styles.image}>
+					<div className={styles.imageWrapper}>
 						<StaticImage
 							src="../../images/psicologia_clifali.jpg"
 							alt="image_psic"
 							width={560}
-							quality={95}
+							quality={90}
 							formats={["auto", "webp", "avif"]}
 							layout="constrained"
 							placeholder="tracedSVG"
@@ -61,16 +61,18 @@ const SectionWorks = () => {
 							</a>
 						</div>
 					</div>
-					<div className={styles.image}>
-						<StaticImage
-							src="../../images/psicologia_clifali.jpg"
-							alt="image_psic"
-							width={560}
-							quality={95}
-							formats={["auto", "webp", "avif"]}
-							layout="constrained"
-							placeholder="tracedSVG"
-						/>
+					<div className={styles.imageWrapper}>
+						{
+							<StaticImage
+								src="../../images/fonoaudiologia-edit.jpg"
+								alt="image_psic"
+								width={560}
+								quality={90}
+								formats={["auto", "webp", "avif"]}
+								layout="constrained"
+								placeholder="tracedSVG"
+							/>
+						}
 					</div>
 				</div>
 			</div>
