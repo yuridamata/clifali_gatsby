@@ -54,14 +54,13 @@
 		align-items: center;
 		position: fixed;
 		bottom: 50px;
-		right: 30px;
+		right: 20px;
 		z-index: 10;
-
-		// .buttonWhats {
-		// }
-		&:hover {
+		
+		.icon_whatsapp {
 			animation: animaButton 1s linear infinite;
 		}
+		
 		span {
 			background-color: var(--bgColorOne);
 			color: var(--bottomColor);
@@ -108,7 +107,7 @@
 	.footer {
 		.whatsapp {
 			bottom: 30px;
-			right: 10px;
+			right: 0;
 
 			span {
 				padding: 5px 8px;
@@ -150,6 +149,6 @@
 		transform: translate(1px, 2px) rotate(0deg);
 	}
 	100% {
-		transform: translate(-1px, -2px) rotate(1deg);
+		transform: initial;
 	}
 }

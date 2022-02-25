@@ -73,6 +73,7 @@ function Footer() {
 						formats={["auto", "webp", "avif"]}
 						alt="logo_clifali"
 						placeholder="tracedSVG"
+						className={styles.icon_whatsapp}
 					/>
 					<span>Entre em contato</span>
 				</a>
