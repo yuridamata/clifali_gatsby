@@ -14,6 +14,7 @@ function Footer() {
 						formats={["auto", "webp", "avif"]}
 						alt="logo_clifali"
 						placeholder="tracedSVG"
+						layout="constrained"
 					/>
 				</div>
 
@@ -56,6 +57,7 @@ function Footer() {
 								formats={["auto", "webp", "avif"]}
 								alt="logo_clifali"
 								placeholder="tracedSVG"
+								layout="constrained"
 							/>
 						</div>
 					</div>
@@ -64,6 +66,7 @@ function Footer() {
 				<a
 					href="https://linkwhats.app/3dfa70"
 					target="_blank"
+					rel="noreferrer"
 					className={styles.whatsapp}
 				>
 					<StaticImage
