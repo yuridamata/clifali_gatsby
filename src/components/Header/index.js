@@ -3,10 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 import * as styles from "./styles.module.scss"
-// import useMedia from "../../hooks/useMedia"
 
 export function Header() {
-	// const mobile = useMedia("(max-width: 768px")
 	const [match, setMatch] = React.useState(null)
 	const [mobileMenu, setMobileMenu] = React.useState(false)
 
