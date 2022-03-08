@@ -11,7 +11,13 @@ const SectionSchedule = () => {
 
 				<div className={styles.call_schedule}>
 					<h1>Pré-agendamento Simples e fácil</h1>
-					<a href="">Fazer pré-agendamento</a>
+					<a
+						href="https://linkwhats.app/3dfa70"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Fazer pré-agendamento
+					</a>
 				</div>
 				<div className={styles.image_schedule}>
 					<StaticImage

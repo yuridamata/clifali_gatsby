@@ -21,7 +21,13 @@ const SectionWorks = () => {
 							+ Saiba mais
 						</a>
 						<div className={styles.bottons}>
-							<a href="#">Fazer pré-agendamento</a>
+							<a
+								href="https://linkwhats.app/3dfa70"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Fazer pré-agendamento
+							</a>
 							<a href="https://www.clifali.com.br/a-clinica/equipe/">
 								Conhecer profissionais
 							</a>
@@ -55,7 +61,13 @@ const SectionWorks = () => {
 							+ Saiba mais
 						</a>
 						<div className={styles.bottons}>
-							<a href="#">Fazer pré-agendamento</a>
+							<a
+								href="https://linkwhats.app/3dfa70"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Fazer pré-agendamento
+							</a>
 							<a href="https://www.clifali.com.br/a-clinica/equipe/">
 								Conhecer profissionais
 							</a>
