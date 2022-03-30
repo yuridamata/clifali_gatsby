@@ -2,9 +2,9 @@ import * as React from "react"
 import * as styles from "./styles.module.scss"
 import { StaticImage } from "gatsby-plugin-image"
 
-function Footer() {
+function Footer(props, ref) {
 	return (
-		<footer className={styles.footer}>
+		<footer ref={ref} className={styles.footer}>
 			<div className="container column">
 				<div className={styles.logo}>
 					<StaticImage
@@ -22,8 +22,7 @@ function Footer() {
 					<div className={styles.contact_footer}>
 						<h2>Contato:</h2>
 						<p>
-							<a href="tel:06133524189">61 3352-4189</a> /{" "}
-							<a href="tel:06130425720">3042-5720</a>
+							<a href="tel:061335243">61 3352-4313</a> /{" "}
 						</p>
 						<p>
 							<a href="mailto:atendimento@clifali.com.br">
@@ -85,4 +84,4 @@ function Footer() {
 	)
 }
 
-export default Footer
+export default React.forwardRef(Footer)

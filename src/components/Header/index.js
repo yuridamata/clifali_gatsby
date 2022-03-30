@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import * as styles from "./styles.module.scss"
 
-export function Header() {
+export function Header({ scrollToRef, refs }) {
 	const [match, setMatch] = React.useState(null)
 	const [mobileMenu, setMobileMenu] = React.useState(false)
 
@@ -63,7 +63,12 @@ export function Header() {
 					</a>
 					<a href="https://www.clifali.com.br/blog/">blog</a>
 					<a href="https://www.clifali.com.br/convenios/">convênios</a>
-					<a href="https://www.clifali.com.br/contato/">contato</a>
+					<a
+						className={styles.link}
+						onClick={() => scrollToRef(refs.footerRef)}
+					>
+						contato
+					</a>
 				</nav>
 			</div>
 		</header>
