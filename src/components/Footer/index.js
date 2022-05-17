@@ -22,11 +22,10 @@ function Footer(props, ref) {
 					<div className={styles.contact_footer}>
 						<h2>Contato:</h2>
 						<p>
-							<a href="tel:06133524189">61 3352-4189</a>
-						</p>
-						<p>
+							<a href="tel:06133524189">61 3352-4189</a> /{" "}
 							<a href="tel:06133524313">61 3352-4313</a>
 						</p>
+
 						<p>
 							<a href="mailto:atendimento@clifali.com.br">
 								atendimento@clifali.com.br

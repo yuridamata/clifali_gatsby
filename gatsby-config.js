@@ -9,7 +9,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     "gatsby-plugin-web-font-loader",
     {
       resolve: `gatsby-source-filesystem`,
