@@ -47,21 +47,6 @@ function Footer(props, ref) {
 						<p>Segunda à Sexta, das 08h às 20h30</p>
 						<p>Sábado, das 08h às 18h</p>
 					</div>
-
-					<div className={styles.partnership_footer}>
-						<h2>Parceria:</h2>
-						<div className={styles.image_partner}>
-							<StaticImage
-								src="../../images/parceria-idr.png"
-								width={200}
-								quality={95}
-								formats={["auto", "webp", "avif"]}
-								alt="logo_clifali"
-								placeholder="tracedSVG"
-								layout="constrained"
-							/>
-						</div>
-					</div>
 				</div>
 
 				<a
